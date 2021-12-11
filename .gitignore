@@ -1,0 +1,6 @@
+.vscode/
+.known_faces/
+.unknown_faces/
+creds.json
+.__pycache__/
+
