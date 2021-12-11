@@ -1,38 +1,31 @@
-## product name - juju
+## product name - automated attendance system
 
 
 ### what is this?
-this is my template for project documentation
+a face recognition based attendance system for students in my department
 
 ### why am i making it?
-i noticed how i documented projects on github lacked structure so i made an easy to use template. i went through a bunch of projects and figured out what was essential and what wasn't. you're welcome
+curiosity. I had just started learning openCV from sentdex and techwithtim and what better way to put it to the test. I got to research existing biometric based attendance systems, and found a afaster way to streamline the entire workflow for my department.
 
 ![gif of working prototype](https://media3.giphy.com/media/2vogqNpFQywWC0z0j5/giphy.gif)
-<center style=color:grey;>gif of working prototype</center>
+<center style=color:grey;>sitting duck</center>
 
 ### want to use it?
-i plan to use this on all of my future projects and maybe some of my older ones (if i have the time). if you want to use this just fork the repository and clone it to your local computer or just clone this. i'm a n00b, idk
-
-```
-### on the github cli
-gh repo clone dibrinsofor/readme-template
-```
-or 
-```
-git clone https://github.com/dibrinsofor/readme-template
-```
+you probably can if you want to but you'll need to tweak the code and setup your email provider to work with smtplib and the google sheets API so you do not get flagged. this should not be hard to do, just look it up
 
 ### how it works
-i am trying not to fill this with lorem ipsum so here goes, i'll just list users whose readme.md's i went through: @fathermerry, @victoridk
+using your primary camera or webcam, the facerec program will identify and recognise faces available in the "known_faces" dir. recognised faces will trigger the "sheets.py" program to mark the student as present in the specified google spreadsheet, and at the end of the day the full attendance list will be sent to the lecturer's email.
 
 #### technologies
 this was built entirely with love on an eventful day with:
 
-- markdown
+- python
+- smtplib
+- google sheets api
 - ❤️
 
 ### what's coming next
-i am not sure how much better you can make this, it's already pretty badass. maybe do a one pass for grammatical errors and keep going through repos to find new ways to make this colt even cooler. oooh! maybe make a library that'll auto generate a readme with this template
+probably nothing. I am pretty satisfied with how it turned out. maybe working with other departments to replace their existing paper based attendance system
 
 ### want to help make this better?
 you are a massive nerd if you think this is cool and want to contribute to it😂, i love you still. just make a pr with any changes you have or shoot me a dm on twitter
