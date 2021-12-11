@@ -6,6 +6,7 @@ LECTURER = "nsofor@gmail.com"
 today = date.today()
 course = "SOC 101"
 lecturerName = "Dr. Nsofor"
+link = ""
 
 def send_email(subject, msg):
     try:
@@ -45,6 +46,6 @@ def send_email(subject, msg):
     #     print("Email failed to send")
 
 subject = f"{course}: {today}"
-msg = f"Good day, {lecturerName}, \n\n here is a link to today's attendance: https://docs.google.com/spreadsheets/d/1Q4XyI2ao8rZkMPpgQpGMx-8YyBL3iU_ajsXrgUKnV_8/edit?usp=sharing \n\n Truly,\nAttendance Bot"
+msg = f"Good day, {lecturerName}, \n\n here is a link to today's attendance: {link} \n\n Truly,\nAttendance Bot"
 
 send_email(subject, msg)
