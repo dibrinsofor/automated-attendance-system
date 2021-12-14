@@ -3,4 +3,5 @@
 .unknown_faces/
 creds.json
 .__pycache__/
+config.py
 
