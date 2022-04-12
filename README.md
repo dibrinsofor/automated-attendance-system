@@ -2,13 +2,12 @@
 
 
 ### what is this?
-a face recognition based attendance system for students in my department
+a face recognition based attendance system for students in my department. well, sort of, this is just an MVP. The final work belongs to the CS department at GU now.
 
 ### why am i making it?
-curiosity. I had just started learning openCV from sentdex and techwithtim and what better way to put it to the test. I got to research existing biometric based attendance systems, and found a afaster way to streamline the entire workflow for my department.
+curiosity. I had just started learning openCV from sentdex and techwithtim and what better way to put it to the test. I got to research existing biometric based attendance systems, and found a faster way to streamline the entire workflow for my department.
 
 ![gif of working prototype](https://media3.giphy.com/media/2vogqNpFQywWC0z0j5/giphy.gif)
-<center style=color:grey;>sitting duck</center>
 
 ### want to use it?
 you probably can if you want to but you'll need to tweak the code and setup your email provider to work with smtplib and the google sheets API so you do not get flagged. this should not be hard to do, just look it up
@@ -20,6 +19,7 @@ using your primary camera or webcam, the facerec program will identify and recog
 this was built entirely with love on an eventful day with:
 
 - python
+- openCV
 - smtplib
 - google sheets api
 - ❤️
