@@ -27,6 +27,8 @@ def rest():
 
 attendance()
 rest()
+
+# sample
 # lecturerName = "Dr. Nsofor"
 # print(f"Sending Attendance to {lecturerName}")
 # time.sleep(5)
